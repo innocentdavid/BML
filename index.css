@@ -1,0 +1,23 @@
+.home_main {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.home_main h1{
+   font-size: 6rem;
+   margin-left: 120px;
+}
+
+.home_main img {
+    width: 700px;
+    height: 700px;
+    margin-bottom: -10px;
+}
+
+.index_eds {
+    position: absolute;
+    bottom: 5px;
+    color: gray;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 3rem;
+}

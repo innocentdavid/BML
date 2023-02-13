@@ -1,0 +1,36 @@
+.header_flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    padding-left: 0;
+}
+
+.header_top_logo {
+    width: 105px;
+    height: 109px;
+}
+
+.header_side1 {
+    display: flex;
+}
+
+.header_mark {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+}
+
+.header_items {
+    text-decoration: none;
+    color: black;
+}
+.header_items.active {
+    border-bottom: 1px solid #CE1212;
+}
+
+.header_sub {
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: underline;
+}

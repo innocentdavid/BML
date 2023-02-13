@@ -1,0 +1,251 @@
+.dum{
+    display: flex;
+    
+}
+.down{
+    position: absolute;
+width: 529px;
+height: 748px;
+left: 200px;
+top: 224px;
+
+background: url(DC9A40AF-0D1B-4D1F-80AC-357BBD45683B_1_201_a.jpg);
+filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.25));
+border-radius: 18px;
+}
+.das{
+    position: absolute;
+width: 269px;
+height: 36px;
+left: 673px;
+top: 242px;
+
+font-family: 'Poppins';
+font-style: italic;
+font-weight: 800;
+font-size: 48px;
+line-height: 36px;
+/* identical to box height, or 75% */
+
+text-align: center;
+letter-spacing: 0.1px;
+
+color: #171725;
+}
+.daf{
+    position: absolute;
+width: 873.51px;
+height: 578px;
+left: 753px;
+top: 300px;
+margin: 20px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+
+color: #636472;
+}
+.view{
+    position: absolute;
+    width: 211.12px;
+    height: 36px;
+    left: 702px;
+    top: 780px;
+    
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    text-decoration-line: underline;
+    
+    color: #171725;
+}
+.png{
+    position: absolute;
+    width: 42.45px;
+    height: 46.52px;
+    left: 745px;
+    top: 962px;
+
+}
+.png1{
+    position: absolute;
+    width: 42.45px;
+    height: 46.52px;
+    left: 800px;
+    top: 962px;
+
+}
+.png2{
+    position: absolute;
+    width: 42.45px;
+    height: 46.52px;
+    left: 855px;
+    top: 962px;
+
+}
+.png3{
+    position: absolute;
+    width: 42.45px;
+    height: 46.52px;
+    left:920px;
+    top: 962px;
+
+}
+.png4{
+    position: absolute;
+    width: 42.45px;
+    height: 46.52px;
+    left:980px;
+    top: 962px;
+
+}
+.png5{
+    position: absolute;
+    width: 42.45px;
+    height: 46.52px;
+    left:1045px;
+    top: 962px;
+
+}
+.png6{
+    position: absolute;
+    width: 42.45px;
+    height: 46.52px;
+    left:1110px;
+    top: 962px;
+
+}
+.png:hover{
+    color:white;
+    animation-name: bounce;
+    animation-duration: .8s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+.png1:hover{
+    color:white;
+    animation-name: bounce;
+    animation-duration: .8s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+.png2:hover{
+    color:white;
+    animation-name: bounce;
+    animation-duration: .8s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+.png3:hover{
+    color:white;
+    animation-name: bounce;
+    animation-duration: .8s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+.png4:hover{
+    color:white;
+    animation-name: bounce;
+    animation-duration: .8s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+.boss{
+    padding: 50px;
+}
+.png5:hover{
+    color:white;
+    animation-name: bounce;
+    animation-duration: .8s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+.png6:hover{
+    color:white;
+    animation-name: bounce;
+    animation-duration: .8s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+
+@keyframes bounce{
+70% {
+    transform:translateY(0%);
+    padding-bottom: 7px;
+}
+80% {
+  transform:translateY(-15%);
+}
+90% {
+  transform:translateY(0%);
+  padding-bottom: 8px;
+}
+95% {
+  transform:translateY(-7%);
+}
+97% {
+  transform:translateY(0%);
+  padding-bottom: 9px;
+}
+99% {
+  transform:translateY(-3%);
+}
+100% {
+  transform:translateY(0);
+  padding-bottom: 9px;
+  opacity: 1;
+}
+}
+.music{
+    position: absolute;
+    width: 252.19px;
+    height: 34.13px;
+    left: 971px;
+    top: 1254px;
+    
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 36px;
+    /* or 75% */
+    
+    text-align: center;
+    letter-spacing: 0.1px;
+    
+    color: #D8DDE7;
+}
+
+.dem{
+    position: absolute;
+    width: 529px;
+    height: 630px;
+    left: 200px;
+    top: 1009px;
+    
+    background: url(000001-2.png);
+    filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.25));
+    border-radius: 18px;
+}
