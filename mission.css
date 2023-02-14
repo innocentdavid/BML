@@ -1,5 +1,5 @@
 .main {
-    padding: 2px 50px;
+    padding: 2px 150px;
 }
 
 .vex {
@@ -14,6 +14,7 @@
     display: flex;
     flex-direction: column;
     gap: 36px;
+    color: black;
 }
 
 .to_right {
@@ -58,6 +59,7 @@
     outline: none;
     background-color: transparent;
     width: 250px;
+    color: white;
 }
 
 .sub_form button{
@@ -70,6 +72,7 @@
     display: grid;
     place-items: center;
     border-radius: 999px;
+    cursor: pointer;
 }
 @media screen and (max-width:960px){
     .main {
@@ -100,4 +103,3 @@
         width: 60px;
     }
 }
-
