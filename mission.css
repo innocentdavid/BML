@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ @import url('https://fonts.cdnfonts.com/css/mervale-script');
+
+
+@import url('https://fonts.cdnfonts.com/css/dm-sans');
+
+                
+
+                
+
 .main {
     padding: 2px 150px;
 }
@@ -8,7 +19,7 @@
 }
 
 .main_content {
-    font-family: 'Poppins';
+    font-family: 'Poppins' ;
     margin: 20px auto;
     padding: 5px 50px;
     display: flex;

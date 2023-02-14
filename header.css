@@ -20,6 +20,13 @@
     justify-content: center;
     gap: 6px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ @import url('https://fonts.cdnfonts.com/css/mervale-script');
+
+
+@import url('https://fonts.cdnfonts.com/css/dm-sans');
+
 
 .header_items {
     text-decoration: none;
@@ -117,9 +124,9 @@
 
 }
 @media screen and (max-width:767px){
-    /* .header_sub{
+    .header_sub{
         display: none;
-    } */
+    }
     .footer {
      display: grid;
      grid-template-columns: 1fr;
