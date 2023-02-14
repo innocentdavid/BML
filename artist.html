@@ -8,11 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&display=swap" rel="stylesheet">
+    <link href="/font-awesome-4.7.0/" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="layout.css" />
     <link rel="stylesheet" href="header.css" />
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="artist.css">
     
     <title>artist</title>
 
@@ -30,11 +32,32 @@
             <a href="mission.html" class="header_items">mission</a>
           </div>
         </div>
-        <div class="header_sub" onclick="myFunction()">Subscribe</div>
+          <div class="subscribe" id="sub">
+          <div class="box">
+            <h1 class="text">Subscribe to our newsletter</h1>
+            <div class="formed">
+              <span><i class="fa fa-envelope-o icon" aria-hidden="true"></i></span>
+              <input type="email" name=""  placeholder="Email" class="fill" id="">
+             <button type="submit"value="subscribe" class="click">subscribe</button>
+            </div>
+          </div>
+        </div>
+        <div class="subscribe" id="sub">
+          <div class="box">
+            <h1 class="text">Subscribe to our newsletter</h1>
+            <div class="formed">
+              <span><i class="fa fa-envelope-o icon" aria-hidden="true"></i></span>
+              <input type="email" name=""  placeholder="Email" class="fill" id="">
+             <button type="submit"value="subscribe" class="click">subscribe</button>
+            </div>
+          </div>
+        </div>
+        <div class="header_sub" onclick="myfunction()">Subscribe</div>
       </header>
       <h1 class="foo">Artists</h1>
       <img src="Assest/000001-2 1.png" class="uss" alt="lady pics">
       <h1 class="dayss">Babyi</h1>
     </main>
+    <script src="header.js"></script>
 </body>
 </html>

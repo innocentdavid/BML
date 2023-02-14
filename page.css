@@ -3,126 +3,93 @@
     
 }
 .down{
-    position: absolute;
 width: 529px;
 height: 748px;
-left: 200px;
-top: 224px;
-
+margin-left: 100px;
 background: url(DC9A40AF-0D1B-4D1F-80AC-357BBD45683B_1_201_a.jpg);
 filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.25));
 border-radius: 18px;
 }
+
 .das{
-    position: absolute;
 width: 269px;
 height: 36px;
-left: 673px;
-top: 242px;
-
 font-family: 'Poppins';
 font-style: italic;
 font-weight: 800;
 font-size: 48px;
 line-height: 36px;
-/* identical to box height, or 75% */
-
-text-align: center;
 letter-spacing: 0.1px;
-
 color: #171725;
+margin-left:40px ;
 }
 .daf{
-    position: absolute;
-width: 873.51px;
 height: 578px;
-left: 753px;
-top: 300px;
-margin: 20px;
-
+margin: 10px;
+padding: 20px 20px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 300;
 font-size: 20px;
 line-height: 30px;
-
 color: #636472;
 }
 .view{
-    position: absolute;
-    width: 211.12px;
-    height: 36px;
-    left: 702px;
-    top: 780px;
-
-    /* hkjhk */
-    
+    margin-left: 30px;
     font-family: 'Poppins';
     font-style: italic;
     font-weight: 400;
     font-size: 16px;
     line-height: 36px;
-    text-align: center;
+   
     letter-spacing: 0.1px;
     text-decoration-line: underline;
-    
     color: #171725;
+    display: block;
 }
 .png{
-    position: absolute;
-    width: 42.45px;
-    height: 46.52px;
-    left: 745px;
-    top: 962px;
+    width: 32.45px;
+    height: 36.52px;
+    margin-top: 50px;
+    margin-left: 25px;
 
 }
 .png1{
-    position: absolute;
-    width: 42.45px;
-    height: 46.52px;
-    left: 800px;
-    top: 962px;
-
+    width: 32.45px;
+    height: 36.52px;
+    margin-top: 50px;
+    margin-left: 25px;
 }
 .png2{
-    position: absolute;
-    width: 42.45px;
-    height: 46.52px;
-    left: 855px;
-    top: 962px;
+    width: 32.45px;
+    height: 36.52px;
+    margin-top: 50px;
+    margin-left: 25px;
 
 }
 .png3{
-    position: absolute;
-    width: 42.45px;
-    height: 46.52px;
-    left:920px;
-    top: 962px;
-
+    width: 32.45px;
+    height: 36.52px;
+    margin-top: 50px;
+    margin-left: 25px;
 }
 .png4{
-    position: absolute;
-    width: 42.45px;
-    height: 46.52px;
-    left:980px;
-    top: 962px;
-
+    width: 32.45px;
+    height: 36.52px;
+    margin-top: 50px;
+    margin-left: 25px;
 }
 .png5{
-    position: absolute;
-    width: 42.45px;
-    height: 46.52px;
-    left:1045px;
-    top: 962px;
-
+    width: 32.45px;
+    height: 36.52px;
+    margin-top: 50px;
+    margin-left: 25px;
 }
 .png6{
-    position: absolute;
-    width: 42.45px;
-    height: 46.52px;
-    left:1110px;
-    top: 962px;
-
+    width: 32.45px;
+    height: 36.52px;
+    margin-top: 50px;
+    margin-left: 25px;
 }
 .png:hover{
     color:white;
@@ -220,34 +187,127 @@ color: #636472;
   opacity: 1;
 }
 }
+.dar{
+    display: flex;
+}
 .music{
-    position: absolute;
     width: 252.19px;
     height: 34.13px;
-    left: 971px;
-    top: 1254px;
-    
     font-family: 'Poppins';
     font-style: italic;
     font-weight: 700;
     font-size: 48px;
     line-height: 36px;
-    /* or 75% */
-    
     text-align: center;
     letter-spacing: 0.1px;
-    
     color: #D8DDE7;
+    margin: 300px;
 }
 
 .dem{
-    position: absolute;
     width: 529px;
     height: 630px;
-    left: 200px;
-    top: 1009px;
-    
+    margin-left: 110px;
+    margin-top: 50px;
     background: url(000001-2.png);
     filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.25));
     border-radius: 18px;
+}
+@media screen and (max-width:767px){
+    .dum{
+        flex-direction: column;
+        
+    }
+    .down{
+        width: 229px;
+        height: 308px;
+        margin-left: 30px;
+        margin-top: 20px;
+        }
+
+    .das{
+            font-size: 38px;
+            color: #171725;
+            margin-left:40px;
+            margin-top: 20px;
+            }
+    .daf{
+                margin: 10px 5px;
+                padding: 10px 10px;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 30px;
+                color: #636472;
+                }
+    .view{
+                    margin-left: 15px;
+                    margin-top: 480px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 36px;
+                   
+                    letter-spacing: 0.1px;
+                    text-decoration-line: underline;
+                    color: #171725;
+                    display: block;
+                }
+                .png{
+                    width: 32.45px;
+                    height: 36.52px;
+                    margin-top: 19px;
+                    margin-left: 15px;
+                
+                }
+                .png1{
+                    width: 32.45px;
+                    height: 36.52px;
+                    margin-top: 19px;
+                    margin-left: 15px;
+                }
+                .png2{
+                    width: 32.45px;
+                    height: 36.52px;
+                    margin-top: 19px;
+                    margin-left: 15px;
+                
+                }
+                .png3{
+                    width: 32.45px;
+                    height: 36.52px;
+                    margin-top: 19px;
+                    margin-left: 15px;
+                }
+                .png4{
+                    width: 32.45px;
+                    height: 36.52px;
+                    margin-top: 19px;
+                    margin-left: 15px;
+                }
+                .png5{
+                    width: 32.45px;
+                    height: 36.52px;
+                    margin-top: 19px;
+                    margin-left: 15px;
+                }
+                .png6{
+                    width: 32.45px;
+                    height: 36.52px;
+                    margin-top: 19px;
+                    margin-left: 15px;
+                }
+                .dar{
+                    flex-direction: column;
+                }
+                .dem{
+                    width: 229px;
+                    height: 308px;
+                    margin-left: 30px;
+                    margin-top: 25px;
+                }
+                .music{
+                    font-weight: 700;
+                    font-size: 48px;
+                    margin-left: 20px;
+                    margin-top: 50px;
+                }
 }

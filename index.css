@@ -21,3 +21,18 @@
     transform: translate(-50%);
     font-size: 3rem;
 }
+@media screen and (max-width:960px){
+    .home_main {
+        grid-template-columns: 1fr;
+    }
+    .home_main h1{
+        font-size: 2rem;
+        margin-left: 40px;
+     }
+     .home_main img {
+        width: 250px;
+        height: 250px;
+        margin: auto
+     };
+
+}

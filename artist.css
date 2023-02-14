@@ -1,0 +1,58 @@
+
+.foo{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 36px;
+    text-align: left;
+    margin: 0px 100px;
+    letter-spacing: 0.1px;
+    color: #171725;
+}
+.uss{
+    width: 440px;
+    height: 517px;
+    margin-top: 20px;
+    margin-left: 200px;
+    filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+}
+
+.dayss{
+     font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 430px;
+    /* text-align: center; */
+    letter-spacing: 0.1px;
+    color: #171725;
+    z-index: 11;
+    margin-top: -9px;
+}   
+
+@media screen and (max-width:960px){
+    .foo{
+        font-style: italic;
+        font-weight: 700;
+        margin: 10px 46px;
+        font-size: 28px;
+     
+    }
+    .uss{
+        width: 160px;
+        height: 217px;
+        margin-top: 8px;
+        margin-left: 50px;
+    }
+    .dayss{
+        margin-left: 90px;
+    }   
+    
+
+  
+  
+
+}

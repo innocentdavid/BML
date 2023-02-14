@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/font-awesome-4.7.0/" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <title>Layout</title>
     <link rel="stylesheet" href="layout.css" />
     <link rel="stylesheet" href="header.css" />
@@ -21,8 +23,38 @@
             <a href="mission.html" class="header_items">mission</a>
           </div>
         </div>
-        <div class="header_sub" onclick="myFunction()">Subscribe</div>
+        <div class="subscribe" id="sub">
+          <div class="box">
+            <h1 class="text">Subscribe to our newsletter</h1>
+            <div class="formed">
+              <span><i class="fa fa-envelope-o icon" aria-hidden="true"></i></span>
+              <input type="email" name=""  placeholder="Email" class="fill" id="">
+             <button type="submit"value="subscribe" class="click">subscribe</button>
+            </div>
+          </div>
+        </div>
+        <div class="header_sub" onclick="myfunction()">Subscribe</div>
+        <!-- <div class="" onclick="myfunctions()" id="down">Subscribe</div> -->
+        <div class="footer">
+          <h1 class="">Subscribe to our newsletter</h1>
+          <div class="sub_form">
+            <i class="fa fa-envelope-o icon" aria-hidden="true"></i>
+            <input
+              type="email"
+              name=""
+              placeholder="Email"
+              class=""
+              id=""
+            />
+            <button type="submit" value="subscribe" class="">
+              subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+
       </header>
     </main>
+<script src="header.js"></script>
   </body>
 </html>
