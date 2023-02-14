@@ -10,7 +10,7 @@
                 
 
 .main {
-    padding: 2px 150px;
+    padding: 2px 50px;
 }
 
 .vex {
@@ -25,7 +25,6 @@
     display: flex;
     flex-direction: column;
     gap: 36px;
-    color: black;
 }
 
 .to_right {
@@ -39,6 +38,11 @@
     top: -15px;
     right: -5px;
     color: red;
+}
+.icon{
+    color: white;
+    font-size: 1.5rem;
+    margin: 11px;
 }
 
 .mission_footer {
@@ -69,7 +73,7 @@
     border: none;
     outline: none;
     background-color: transparent;
-    width: 250px;
+    width: 300px;
     color: white;
 }
 
@@ -83,7 +87,6 @@
     display: grid;
     place-items: center;
     border-radius: 999px;
-    cursor: pointer;
 }
 @media screen and (max-width:960px){
     .main {
@@ -114,3 +117,4 @@
         width: 60px;
     }
 }
+

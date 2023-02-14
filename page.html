@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&display=swap" rel="stylesheet">
 
     <link href="/font-awesome-4.7.0/" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
@@ -24,7 +21,7 @@
     <main class="">
       <header class="header_flex">
         <div class="header_side1">
-          <img src="Assest/logo.png" alt="logo" class="header_top_logo" />
+          <a href="index.html"><img src="Assest/logo.png" alt="logo" class="header_top_logo" /></a>
           <div class="header_mark">
             <a href="index.html" class="header_items ">home</a>
             <a href="artist.html" class="header_items">Artist</a>
@@ -35,9 +32,22 @@
           <div class="box">
             <h1 class="text">Subscribe to our newsletter</h1>
             <div class="formed">
-              <span><i class="fa fa-envelope-o icon" aria-hidden="true"></i></span>
-              <input type="email" name=""  placeholder="Email" class="fill" id="">
-             <button type="submit"value="subscribe" class="click">subscribe</button>
+
+              <form class="sub_form" action="https://gmail.us21.list-manage.com/subscribe/post?u=a7abcf41aa98fe0618fb7d61e&amp;id=99c68e267c&amp;f_id=00e7fce1f0" method="post">
+
+                <span><i class="fa fa-envelope-o icon" aria-hidden="true"></i></span>
+                <input
+                  type="email"
+                  name="EMAIL"
+                  class="fill"
+                  id="mce-EMAIL"
+                  placeholder="Email"
+                  id=""
+                />
+                <button type="submit"   value="Subscribe"        name="subscribe" id="mc-embedded-subscribe" class="click" style="width: 220px;">
+                  subscribe
+                </button>
+              </form>
             </div>
           </div>
         </div>
@@ -73,5 +83,10 @@
     </div>
     </main>
     <script src="header.js"></script>
+
+    <script type='text/javascript'>
+      (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);
+      
+    </script>
 </body>
 </html>

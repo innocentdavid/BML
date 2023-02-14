@@ -26,7 +26,7 @@
     <main>
       <header class="header_flex">
         <div class="header_side1">
-          <img src="Assest/logo.png" alt="logo" class="header_top_logo" />
+          <a href="index.html"><img src="Assest/logo.png" alt="logo" class="header_top_logo" /></a>
           <div class="header_mark">
             <a href="index.html" class="header_items">home</a>
             <a href="artist.html" class="header_items">Artist</a>
@@ -37,19 +37,22 @@
           <div class="box">
             <h1 class="text">Subscribe to our newsletter</h1>
             <div class="formed">
-              <span
-                ><i class="fa fa-envelope-o icon" aria-hidden="true"></i
-              ></span>
-              <input
-                type="email"
-                name=""
-                placeholder="Email"
-                class="fill"
-                id=""
-              />
-              <button type="submit" value="subscribe" class="click">
-                subscribe
-              </button>
+
+              <form class="sub_form" action="https://gmail.us21.list-manage.com/subscribe/post?u=a7abcf41aa98fe0618fb7d61e&amp;id=99c68e267c&amp;f_id=00e7fce1f0" method="post">
+
+                <span><i class="fa fa-envelope-o icon" aria-hidden="true"></i></span>
+                <input
+                  type="email"
+                  name="EMAIL"
+                  class="fill"
+                  id="mce-EMAIL"
+                  placeholder="Email"
+                  id=""
+                />
+                <button type="submit"   value="Subscribe"        name="subscribe" id="mc-embedded-subscribe" class="click" style="width: 220px;">
+                  subscribe
+                </button>
+              </form>
             </div>
           </div>
         </div>
@@ -98,16 +101,17 @@
 
         <div class="mission_footer">
           <h1>Subscribe to our <br> newsletter</h1>
-          <form class="sub_form">
+          <form class="sub_form" action="https://gmail.us21.list-manage.com/subscribe/post?u=a7abcf41aa98fe0618fb7d61e&amp;id=99c68e267c&amp;f_id=00e7fce1f0" method="post">
             <i class="fa fa-envelope-o icon" aria-hidden="true"></i>
             <input
               type="email"
-              name=""
+              name="EMAIL"
+              class="required email"
+              id="mce-EMAIL"
               placeholder="Email"
-             
               id=""
             />
-            <button type="submit" value="subscribe">
+            <button type="submit"  value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
               subscribe
             </button>
           </form>
