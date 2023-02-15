@@ -42,7 +42,7 @@
     color: #171725;
     z-index: 11;
     margin-top: 6px;
-    margin-left: 140px ;
+    margin-left: 476px ;
 }   
 .nut{
     display: flex;
@@ -100,9 +100,10 @@ button{
     position: relative;
     width: 300px;
     height: 330px;
-    display: none;
     filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.25));
     border-radius: 16px;
+    margin-left: 305px;
+    margin-top: 30px;
 }
 
 .active{
@@ -175,6 +176,8 @@ button{
     .slided{
         width: 200px;
         height: 230px;
+        margin-left: 28px;
+        margin-top: 12px;
     }
     .dot-container{
         width: 150px;
@@ -194,7 +197,7 @@ button{
 
     .dayss{
        font-size: 24px;
-       margin-left: 0px;
+       margin-left: 69px;
    }   
     
     .active{

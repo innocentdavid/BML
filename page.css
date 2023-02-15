@@ -7,19 +7,129 @@
 
 
 
+.img_box {
+    width: 440px;
+    margin-left:  70px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.uss{
+    width: 440px;
+    height: 517px;
+    filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+}
+
+.dayss{
+     font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #171725;
+    z-index: 11;
+    margin-top: 6px;
+    margin-left: 476px ;
+}   
+.nut{
+    display: flex;
+    gap: 190px;
+}
+
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 350px;
+    height: 390px;
+    margin-top: 30px;
+    margin-left: 190px;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    /* box-shadow: 0 15px 30px rgba(0,0,0,0.3); */
+}
+.image-container{
+    position: relative;
+    /* margin-left: 40pX; */
+    margin: auto;
+}
+.dot-container{
+    /* width: 200px; */
+    margin: 2px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+button{
+    outline: none;
+    cursor: pointer;
+}
+
+.dot-container button{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 3px solid #9E0707;
+    background-color: transparent;
+}
+
+.dot-container button:nth-child(1){
+    background-color: #000;
+}
+
+.slided{
+    position: relative;
+    width: 429px;
+    height: 548px;
+    filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.25));
+    display: none;
+    border-radius: 16px;
+    margin-left: -115px;
+    margin-top: -56px;
+}
+
+.active{
+    display: block;
+}
+#prev,#next{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background-color: #9E0707;
+    color: #ffffff;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#prev{
+    left: -18px;
+}
+
+#next{
+    right: 12px;
+}
+
+
+
+
 .dum{
     display: flex;
     
 }
-.down{
-width: 529px;
-height: 748px;
-margin-left: 100px;
-background: url(DC9A40AF-0D1B-4D1F-80AC-357BBD45683B_1_201_a.jpg);
-filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.25));
-border-radius: 18px;
-}
-
 .das{
 width: 269px;
 height: 36px;
@@ -30,17 +140,13 @@ font-size: 48px;
 line-height: 36px;
 letter-spacing: 0.1px;
 color: #171725;
-margin-left:40px ;
+margin-left:70px ;
 }
 .daf{
 height: 578px;
-margin: 10px;
-padding: 20px 20px;
-/* font-family: 'Poppins';
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 30px; */
+margin-left: -98px;
+margin-top: 50px;
+padding: 10px 10px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 300;
@@ -48,14 +154,18 @@ font-size: 20px;
 line-height: 30px;
 color:  #636472;
 }
+.move{
+    margin-top: -104px;   
+    margin-left: 549px;   
+}
 .view{
-    margin-left: 30px;
+    margin-left: 0px;
+    margin-top: 0px;
     font-family: 'Poppins';
     font-style: italic;
     font-weight: 400;
     font-size: 16px;
     line-height: 36px;
-   
     letter-spacing: 0.1px;
     text-decoration-line: underline;
     color: #171725;
@@ -254,8 +364,8 @@ color:  #636472;
                 color: #636472;
                 }
     .view{
-                    margin-left: 15px;
-                    margin-top: 480px;
+                    margin-left: 5px;
+                    margin-top: 0px;
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 36px;
@@ -316,12 +426,90 @@ color:  #636472;
                     width: 229px;
                     height: 308px;
                     margin-left: 30px;
-                    margin-top: 25px;
+                    margin-top: 246px;
                 }
                 .music{
                     font-weight: 700;
                     font-size: 48px;
                     margin-left: 20px;
                     margin-top: 50px;
+                }
+                .img_box {
+                    width: 440px;
+                    margin-left: -10px;
+                    margin-top: -31px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    position: relative;
+                }
+                .image-container{
+                    position: relative;
+                    margin-left: -10px;
+                }
+                .uss{
+                    width: 160px;
+                    height: 217px;
+                    margin-top: 8px;
+                    margin-left: 10px;
+                }
+                .cass{
+                   font-size: 24px;
+                   margin-top: 420px;
+                   margin-left: 140px ;
+               }   
+                .container{
+                    width: 220px;
+                    height: 270px;
+                    padding: 10px;
+                    position: relative;
+                    margin-top: 30px; 
+                    margin-left:-120px; 
+                    padding: 20px; 
+                }
+                .slided{
+                    width: 200px;
+                    height: 230px;
+                    margin-left: -6px;
+                    margin-top: 12px;
+                }
+                .dot-container{
+                    width: 150px;
+                    margin: 9px auto 0 auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                }
+                .dot-container button{
+                    height: 15px;
+                    width:15px;
+                   
+                }
+                .pass{
+                    width: 187px;
+                }
+            
+                .dayss{
+                   font-size: 24px;
+                   margin-left: 69px;
+               }   
+                
+                .active{
+                    display: block;
+                }
+                #prev{
+                    left: -5px;
+                }
+                #prev,#next{
+                    height: 30px;
+                    width: 30px;
+                    color: #ffffff;
+                    margin: auto;
+                    top: 0;
+                    bottom: 0;
+                }
+                
+                #next{
+                    right: -21px;
                 }
 }
