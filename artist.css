@@ -33,7 +33,7 @@
 }
 
 .dayss{
-     /* font-family: 'Poppins', sans-serif;
+     font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-weight: 800;
     font-size: 24px;
@@ -41,11 +41,14 @@
     letter-spacing: 0.1px;
     color: #171725;
     z-index: 11;
-    margin-top: 380px;
-    margin-left: 20px ; */
-    display: none;
+    /* margin-top: 420px; */
+    margin-left: 140px ;
 }   
-
+.nut{
+    display: flex;
+    gap: 190px;
+    /* justify-content: space-around; */
+}
 
 *:after{
     padding: 0;
@@ -54,22 +57,47 @@
 }
 
 .container{
-    /* background-color: #ffffff; */
     width: 350px;
     height: 390px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 30%;
-    top: 50%;
+    margin-top: 30px;
+    margin-left: 190px;
     border-radius: 5px;
     padding: 20px;
+    position: relative;
     box-shadow: 0 15px 30px rgba(0,0,0,0.3);
 }
 .image-container{
     position: relative;
+    /* margin-left: 40pX; */
+    margin: auto;
+}
+.dot-container{
+    /* width: 200px; */
+    margin: 2px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
 }
 
-img{
+button{
+    outline: none;
+    cursor: pointer;
+}
+
+.dot-container button{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 3px solid #9E0707;
+    background-color: transparent;
+}
+
+.dot-container button:nth-child(1){
+    background-color: #000;
+}
+
+.slided{
     position: relative;
     width: 300px;
     height: 330px;
@@ -81,30 +109,6 @@ img{
 .active{
     display: block;
 }
-/* .dot-container{
-    width: 250px;
-    margin: 20px auto 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-button{
-    outline: none;
-    cursor: pointer;
-}
-
-.dot-container button{
-    height: 15px;
-    width: 5    0px;
-    border-radius: 10%;
-    border: 3px solid #076bb8;
-    background-color: transparent;
-}
-
-.dot-container button:nth-child(1){
-    background-color: #076bb8;
-} */
 #prev,#next{
     height: 40px;
     width: 40px;
@@ -136,34 +140,60 @@ button{
         font-size: 28px;
      
     }
+    .img_box {
+        width: 440px;
+        margin-left: -10px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    .image-container{
+        position: relative;
+        margin-left: -10px;
+    }
     .uss{
         width: 160px;
         height: 217px;
         margin-top: 8px;
-        margin-left: 50px;
+        margin-left: 10px;
     }
-    .dayss{
-            font-family: 'Poppins', sans-serif;
-           font-style: italic;
-           font-weight: 800;
-           font-size: 24px;
-           line-height: 36px;
-
-           margin-top: 380px;
-           margin-left: 20px ;
-    }   
+    .cass{
+       font-size: 24px;
+       margin-top: 420px;
+       margin-left: 140px ;
+   }   
     .container{
         width: 220px;
-        height: 250px;
-        transform: translate(-50%,-50%);
-        left: 50%;
-        top: 50%;
+        height: 270px;
         padding: 10px;
+        position: relative;
+        margin-top: 30px; 
+        margin-left:-120px; 
+        padding: 20px; 
     }
-    img{
+    .slided{
         width: 200px;
         height: 230px;
     }
+    .dot-container{
+        width: 150px;
+        margin: -1px auto 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .dot-container button{
+        height: 15px;
+        width:15px;
+       
+    }
+
+    .dayss{
+       font-size: 24px;
+       margin-left: -178px;
+   }   
     
     .active{
         display: block;
@@ -181,7 +211,7 @@ button{
     }
     
     #next{
-        right: 1px;
+        right: 4px;
     }
 
   

@@ -42,7 +42,7 @@
     text-decoration: underline;
 }
 .subscribe{
-    width: 80%;
+    /* width: 80%; */
     height: 10%;
     background-color: #9E0707;
     display: none;
@@ -71,10 +71,11 @@
     align-items: center;
     width: 50%;
     background-color:#a82020;
-    margin-right: 1px;
     margin-top: 10px;
+    margin-left: 20px;
     height: 100%;
     border-radius: 28px;
+
 }
 .sub_form {
     display: flex;
@@ -102,7 +103,7 @@
     place-items: center;
     border-radius: 999px;
     cursor: pointer;
-    margin-left: 150px;
+    margin-left: 220px;
 }
 .fill{
     width: 80%;

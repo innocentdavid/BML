@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="layout.css" />
     <link rel="stylesheet" href="header.css" />
 
-    <link rel="stylesheet" href="artist.css">
+    <link rel="stylesheet" href="artist.css">  
     
     <title>artist</title>
 
@@ -22,7 +22,7 @@
 <body>
   <div class="child child1"></div>
     <div class="child child2"></div>
-    <main class="">
+    <main class=""  style="width: 100%; height: 100vh; overflow: hidden;">
       <header class="header_flex">
         <div class="header_side1">
           <a href="index.html"><img src="Assest/logo.png" alt="logo" class="header_top_logo" /></a>
@@ -32,11 +32,10 @@
             <a href="mission.html" class="header_items">mission</a>
           </div>
         </div>
-          <div class="subscribe" id="sub">
+        <div class="subscribe" id="sub">
           <div class="box">
             <h1 class="text">Subscribe to our newsletter</h1>
             <div class="formed">
-
               <form class="sub_form" action="https://gmail.us21.list-manage.com/subscribe/post?u=a7abcf41aa98fe0618fb7d61e&amp;id=99c68e267c&amp;f_id=00e7fce1f0" method="post">
 
                 <span><i class="fa fa-envelope-o icon" aria-hidden="true"></i></span>
@@ -55,11 +54,6 @@
             </div>
           </div>
         </div>
-        <div class="subscribe" id="sub">
-          <div class="box">
-            <h1 class="text">Subscribe to our newsletter</h1>
-          </div>
-        </div>
         <div class="header_sub" onclick="myfunction()">Subscribe</div>
       </header>
       <h1 class="foo">Artists</h1>
@@ -67,47 +61,30 @@
               <div class="container">
 
         <div class="image-container">
-          <img src="Assest/000001-2 1.png" id="content1" class="active">
+          <img src="Assest/000001-2 1.png" id="content1" class="active slided">
 
-          <img src="Assest/DC9A40AF-0D1B-4D1F-80AC-357BBD45683B_1_201_a 1.png" id="content2" >
+          <img src="Assest/DC9A40AF-0D1B-4D1F-80AC-357BBD45683B_1_201_a 1.png" id="content2" class="slided" >
 
-          <img src="Assest/DC9A40AF-0D1B-4D1F-80AC-357BBD45683B_1_201_a 1.png" id="content3" >
+          <img src="Assest/000001-2 1.png" id="content4" class="slided">
 
-          <img src="Assest/000001-2 1.png" id="content4">
-      </div>
-      <!-- <div class="dot-container">
+          <img src="Assest/DC9A40AF-0D1B-4D1F-80AC-357BBD45683B_1_201_a 1.png" id="content3" class="slided" >
+
+        
+      </div>  
+      <div class="dot-container">
         <button onclick = "dot(1)"></button>
         <button onclick = "dot(2)"></button>
         <button onclick = "dot(3)"></button>
         <button onclick = "dot(4)"></button>
-     </div> -->
-     <button id="prev" onclick="prev()"> &lt; </button>
-<button id="next" onclick="next()"> &gt; </button>
+     </div>
+    <div class="nut">
+      <button id="prev" onclick="prev()"> &lt; </button>
+    <button id="next" onclick="next()"> &gt; </button>
+    </div>
 
       </div>
         <h1 class="dayss">Babyi</h1>
       </div>
-      
-      <div class="container">
-
-        <div class="image-container">
-          <img src="Assest/000001-2 1.png" id="content1" class="active">
-
-          <img src="Assest/DC9A40AF-0D1B-4D1F-80AC-357BBD45683B_1_201_a 1.png" id="content2" >
-
-          <img src="Assest/DC9A40AF-0D1B-4D1F-80AC-357BBD45683B_1_201_a 1.png" id="content3" >
-
-          <img src="Assest/000001-2 1.png" id="content4">
-      </div>
-      <!-- <div class="dot-container">
-        <button onclick = "dot(1)"></button>
-        <button onclick = "dot(2)"></button>
-        <button onclick = "dot(3)"></button>
-        <button onclick = "dot(4)"></button>
-     </div> -->
-     <button id="prev" onclick="prev()"> &lt; </button>
-<button id="next" onclick="next()"> &gt; </button>
-
       </div>
     </main>
     <script src="artist.js"></script>
