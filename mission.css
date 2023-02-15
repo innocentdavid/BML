@@ -60,7 +60,7 @@
     color: #fff;
 }
 
-.sub_form {
+.mission_sub_form {
     background-color:#ffffff36;
     display: flex;
     align-items: center;
@@ -77,7 +77,7 @@
     color: white;
 }
 
-.sub_form button{
+.mission_sub_form button{
     border: none;
     outline: none;
     background-color: black;
@@ -106,14 +106,14 @@
         flex-direction: column;
         gap: 28px;
     }
-    .sub_form {
+    .mission_sub_form {
         gap: 10px;
         flex-direction: row;
         border-radius: 30px;
         height: 40px;
         
     }
-    .sub_form button{
+    .mission_sub_form button{
         width: 120px;
         height: 100%;
         display: grid;
@@ -131,4 +131,3 @@
         padding: 10px 20px;
     }
 }
-
