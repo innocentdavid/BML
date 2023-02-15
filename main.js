@@ -1,5 +1,3 @@
-
-
 function myFunction() {
   let popup = document.getElementById("wet");
   popup.classList.toggle("show");
@@ -31,5 +29,3 @@ function plusSlides(n) {
 }
 
 // Thumbnail image controls
-
-

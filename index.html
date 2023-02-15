@@ -1,74 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&display=swap" rel="stylesheet">
-    <link href="/font-awesome-4.7.0/" rel="stylesheet">
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&display=swap" rel="stylesheet">
+  <link href="/font-awesome-4.7.0/" rel="stylesheet">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="layout.css" />
-    <link rel="stylesheet" href="header.css" />
-    
-    <link rel="stylesheet" href="index.css">
-    <title>Home</title>
-    
+  <link rel="stylesheet" href="layout.css" />
+  <link rel="stylesheet" href="header.css" />
+
+  <!-- <link rel="stylesheet" href="index.css"> -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    @import url('https://fonts.cdnfonts.com/css/mervale-script');
+    @import url('https://fonts.cdnfonts.com/css/dm-sans');
+  </style>
+  <title>Home</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-    <div class="child child1"></div>
-    <div class="child child2"></div>
+  <div class="child child1"></div>
+  <div class="child child2"></div>
 
-    <main class="" style="width: 100%; height: 100vh; overflow: hidden;">
-        <header class="header_flex">
-          <div class="header_side1">
-            <a href="index.html"><img src="Assest/logo.png" alt="logo" class="header_top_logo" /></a>
-            <div class="header_mark">
-              <a href="index.html" class="header_items active">HOME</a>
-              <a href="artist.html" class="header_items">ARTIST</a>
-              <a href="mission.html" class="header_items">MISSION</a>
-            </div>
-          </div>
-          <div class="subscribe" id="sub">
-            <div class="box">
-              <h1 class="text">Subscribe to our newsletter</h1>
-              <div class="formed">
-                <form class="sub_form" action="https://gmail.us21.list-manage.com/subscribe/post?u=a7abcf41aa98fe0618fb7d61e&amp;id=99c68e267c&amp;f_id=00e7fce1f0" method="post">
+  <main class="">
 
-                  <span><i class="fa fa-envelope-o icon" aria-hidden="true"></i></span>
-                  <input
-                    type="email"
-                    name="EMAIL"
-                    class="fill"
-                    id="mce-EMAIL"
-                    placeholder="Email"
-                    id=""
-                  />
-                  <button type="submit"   value="Subscribe"        name="subscribe" id="mc-embedded-subscribe" class="click" style="width: 220px;">
-                    subscribe
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
-          <div class="header_sub" onclick="myfunction()">Subscribe</div>
-        </header>
-
-        <div class="home_main">
-          <h1>Empowering Artists, Inspiring Listeners</h1>
-          <img src="Assest/bg.svg" alt="">
+    <header class="header_flex">
+      <div class="header_side1">
+        <a href="index.html"><img src="Assest/logo.png" alt="logo" class="header_top_logo" /></a>
+        <div class="header_mark">
+          <a href="index.html" class="header_items active">HOME</a>
+          <a href="artist.html" class="header_items">ARTIST</a>
+          <a href="mission.html" class="header_items">MISSION</a>
         </div>
+      </div>
 
-        <a href="artist.html"><i class="fa fa-angle-down index_eds" aria-hidden="true"></i></a>
+      <div class="subscribe" id="sub">
+        <div class="box">
+          <h1 class="text">Subscribe to our newsletter</h1>
+          <div class="formed">
+            <form class="sub_form"
+              action="https://gmail.us21.list-manage.com/subscribe/post?u=a7abcf41aa98fe0618fb7d61e&amp;id=99c68e267c&amp;f_id=00e7fce1f0"
+              method="post">
 
-      </main>
-<script src="header.js"></script>
+              <span><i class="fa fa-envelope-o icon" aria-hidden="true"></i></span>
+              <input type="email" name="EMAIL" class="fill" id="mce-EMAIL" placeholder="Email" id="" />
+              <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="click"
+                style="width: 220px;">
+                subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="header_sub" onclick="myfunction()">Subscribe</div>
+    </header>
 
-<script type='text/javascript'>
-  (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);
-  
-</script>
+    <div class="home_main px-10 md:px-20 lg:px-[9rem] mt-10 lg:mt-10 flex flex-col lg:flex-row items-center lg:items-start">
+      <h1 class="flex-1 font-['Poppins'] font-bold italic text-5xl md:text-7xl lg:text-[6rem] !leading-[100px] ">Empowering<br> Artists,<br> Inspiring<br> Listeners</h1>
+      <img src="Assest/bg.svg" alt="" class="lg:w-[446px] flex-1">
+    </div>
+
+    <a href="artist.html" class="fixed bottom-0 left-[50%] translate-x-[-50%] text-4xl"><i class="fa fa-angle-down index_eds" aria-hidden="true"></i></a>
+
+  </main>
+  <script src="header.js"></script>
+
+  <script type='text/javascript'>
+    (function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; }(jQuery)); var $mcj = jQuery.noConflict(true);
+
+  </script>
 </body>
+
 </html>
