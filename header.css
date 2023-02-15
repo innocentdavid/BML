@@ -89,6 +89,7 @@
     position: absolute;
     right: 0;
     bottom: -35px;
+    z-index: 99999999;
     background-color: #ce1212;
     color: white;
     padding: 10px;
