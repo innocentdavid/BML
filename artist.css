@@ -132,7 +132,7 @@ button{
     right: -9px;
 }
 
-@media screen and (max-width:960px){
+@media screen and (max-width: 769px){
     .foo{
         font-style: italic;
         font-weight: 700;

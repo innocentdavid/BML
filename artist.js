@@ -1,4 +1,8 @@
+
 const dots = document.querySelectorAll(".dot-container button");
+
+const slider = document.getElementsByClassName("img_box")
+
 const images = document.querySelectorAll(".image-container img");
 let i = 0;
 let j = 2
@@ -28,3 +32,10 @@ function dot(index){
     i = index - 1;
     indicator(index);
 }
+setInterval(function() {
+    next()
+  }, 3000);
+  
+  window.onload = function() {
+  responsiveSlider();  
+  }
