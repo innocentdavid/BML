@@ -92,6 +92,9 @@
     .main {
         padding: 2px 20px;
     }
+    .mission_footer {
+       margin-top: 20px;
+    }
 
     .vex {
         margin-top: 6px;
@@ -102,6 +105,21 @@
         display: flex;
         flex-direction: column;
         gap: 28px;
+    }
+    .sub_form {
+        gap: 10px;
+        flex-direction: row;
+        border-radius: 30px;
+        height: 40px;
+        
+    }
+    .sub_form button{
+        width: 120px;
+        height: 100%;
+        display: grid;
+        place-items: center;
+        border-radius: 999px;
+        margin-left: -226px;
     }
 
 }
@@ -114,7 +132,7 @@
     }
 
     .mission_footer input {        
-        width: 60px;
+        /* width: 60px; */
     }
 }
 

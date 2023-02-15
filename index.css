@@ -41,13 +41,21 @@
         grid-template-columns: 1fr;
     }
     .home_main h1{
-        font-size: 2rem;
-        margin-left: 40px;
+        font-size: 3rem;
+        margin-left: 15px;
+        font-weight: 700;
+        line-height: 45px;
      }
      .home_main img {
         width: 250px;
         height: 250px;
-        margin: auto
-     };
+        margin-top: -9px;
+        margin-left: 10px;
+     }
+     .index_eds {
+        bottom: -9px;
+        color: gray;
+        left: 50%;
+    }
 
 }

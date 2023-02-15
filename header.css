@@ -34,6 +34,8 @@
 }
 .header_items.active {
     border-bottom: 1px solid #CE1212;
+    width: 80%;
+
 }
 
 .header_sub {

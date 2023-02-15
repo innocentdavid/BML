@@ -41,13 +41,12 @@
     letter-spacing: 0.1px;
     color: #171725;
     z-index: 11;
-    /* margin-top: 420px; */
+    margin-top: 20px;
     margin-left: 140px ;
 }   
 .nut{
     display: flex;
     gap: 190px;
-    /* justify-content: space-around; */
 }
 
 *:after{
@@ -64,7 +63,7 @@
     border-radius: 5px;
     padding: 20px;
     position: relative;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    /* box-shadow: 0 15px 30px rgba(0,0,0,0.3); */
 }
 .image-container{
     position: relative;
@@ -179,7 +178,7 @@ button{
     }
     .dot-container{
         width: 150px;
-        margin: -1px auto 0 auto;
+        margin: 9px auto 0 auto;
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -189,10 +188,13 @@ button{
         width:15px;
        
     }
+    .pass{
+        width: 187px;
+    }
 
     .dayss{
        font-size: 24px;
-       margin-left: -178px;
+       margin-left: -138px;
    }   
     
     .active{
