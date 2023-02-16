@@ -12,6 +12,7 @@
   flex-direction: column;
   align-items: center;
 } */
+
 .uss {
   width: 440px;
   height: 517px;
@@ -384,7 +385,8 @@ button {
     gap: 20px;
   }
 
-  .slided, .dem {
+  .slided,
+  .dem {
     width: 280px;
   }
 }
@@ -599,6 +601,14 @@ button {
   }
 }
 
+@media screen and (max-width: 535px) {
+  .dar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
 @media screen and (max-width: 426px) {
   .dar {
     flex-direction: column;
@@ -624,5 +634,12 @@ button {
 @media screen and (max-width: 321px) {
   .dar {
     padding: 10px 20px;
+  }
+}
+
+
+@media screen and (min-width: 600px) {
+  .md-hidden {
+    display: none;
   }
 }

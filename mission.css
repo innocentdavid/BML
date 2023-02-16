@@ -54,6 +54,7 @@
 .mission_footer h1 {
     font-size: 1.5em;
     color: #fff;
+    text-align: center;
 }
 
 .mission_sub_form {
@@ -123,8 +124,17 @@
     .mission_footer {
         display: grid;
         grid-template-columns: 1fr;
-        place-items: start;
+        place-items: center;
         padding: 10px 20px;
+    }
+    .mission_footer input {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .mission_footer input {
+        width: 320px;
     }
 }
 

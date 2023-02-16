@@ -34,7 +34,7 @@ function dot(index){
 }
 setInterval(function() {
     next()
-  }, 3000);
+  }, 6000);
   
   window.onload = function() {
   responsiveSlider();  
