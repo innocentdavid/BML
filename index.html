@@ -42,7 +42,6 @@
         transform: translate(0, -0px);
       }
     }
-
   </style>
   <title>Home</title>
 
@@ -53,7 +52,7 @@
   <div class="child child1"></div>
   <div class="child child2"></div>
 
-  <main class="">
+  <main class="" onscroll="myScrollFunction()">
 
     <header class="header_flex">
       <div class="header_side1">
@@ -92,69 +91,28 @@
       <h1
         class="flex-1 font-['Poppins'] font-bold italic text-5xl md:text-6xl lg:text-7xl xl:text-[6rem] 4xl:text-[10rem] xl:!leading-[100px] 4xl:!leading-[170px]">
         Empowering<br> Artists,<br> Inspiring<br> Listeners</h1>
-      <img src="Assest/bg.svg" alt="" 
-      class="floating w-[400px] md:w-[487px] md:ml-[-55px] md:mb-[-100px] lg:ml-0 lg:mb-0 lg:w-[700px] flex-1">
+      <img src="Assest/bg.svg" alt=""
+        class="floating w-[400px] md:w-[487px] md:ml-[-55px] md:mb-[-100px] lg:ml-0 lg:mb-0 lg:w-[700px] flex-1">
     </div>
 
     <a href="artist.html" class="fixed bottom-0 left-[50%] translate-x-[-50%] text-4xl"><i
         class="fa fa-angle-down index_eds" aria-hidden="true"></i></a>
-<br>
-<br>
-    <!-- width: 487px;
-    margin-left: -55px;
-    margin-bottom: -100px; -->
-<!-- <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br> -->
   </main>
-  <script>
-    window.onscroll = function () { myFunction() };
+  <div style="min-height: 105vh;"></div>
+  <br>
 
-      function myFunction() {
-        console.log('yh');
-        // if (document.documentElement.scrollTop > 50) {
-        //   document.getElementById("myP").className = "test";
-        // } else {
-        //   document.getElementById("myP").className = "";
-        // }
+  <script>
+    window.onscroll = function () { myScrollFunction() };
+    function myScrollFunction() {
+      if ((window.innerHeight + window.scrollY) > document.body.offsetHeight) {
+        setTimeout(function () {
+          location.href = "/artist.html";
+        }, 1000)
       }
+    }
   </script>
   <script src="header.js"></script>
 
-  <script>
-    // console.log(window.innerHeight);
-    // console.log(window.scrollY);
-    // console.log(document.body.offsetHeight);
-    // console.log((window.innerHeight + window.scrollY) > document.body.offsetHeight);
-    
-    // window.onscroll = function() {
-    //   console.log('dk');
-    //   myScrollFunction()
-    // };
-    // function myScrollFunction (ev) {
-    // console.log(window.scrollY);
-    //   // console.log((window.innerHeight + window.scrollY) > document.body.offsetHeight);
-    //     // if ((window.innerHeight + window.scrollY) > document.body.offsetHeight) {
-    //     //   setTimeout(function () {
-    //     //     location.href = "/artist.html";
-    //     //   }, 1000)
-    //     // }
-    //   };
-  </script>
-  
-  <!-- <script type='text/javascript'>
-    (function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; }(jQuery)); var $mcj = jQuery.noConflict(true);
-  </script> -->
 </body>
 
 </html>
