@@ -98,7 +98,7 @@ button {
   position: relative;
   /* width: 468px;
   height: 545px; */
-  width: 468px;
+  width: 430px;
   height: fit-content;
   filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.25));
   display: none;
@@ -369,7 +369,7 @@ button {
 }
 
 .dem {
-  width: 485px;
+  width: 447px;
   height: fit-content;
   margin-left: -6px;
   /* width: 529px;
@@ -379,26 +379,14 @@ button {
   border-radius: 18px; */
 }
 
-@media screen and (max-width: 426px) {
-  .dar {
-    flex-direction: column;
-  }
-
-  .demCont {
-    display: grid;
-    place-items: center;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
+@media screen and (max-width: 1025px) {
   .dum {
-    padding: 0;
     gap: 20px;
   }
 
-    .slided {
-      width: 100%;
-    }
+  .slided, .dem {
+    width: 280px;
+  }
 }
 
 @media screen and (max-width: 769px) {
@@ -608,5 +596,33 @@ button {
 
   #next {
     right: -21px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .dar {
+    flex-direction: column;
+  }
+
+  .demCont {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .dum {
+    padding: 0;
+    gap: 20px;
+  }
+
+  .slided {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .dar {
+    padding: 10px 20px;
   }
 }
