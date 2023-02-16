@@ -553,6 +553,7 @@ button {
     width: 80%;
     margin: auto;
     height: fit-content;
+    max-height: 600px;
     /* margin-right: 100px; */
     margin-top: 12px;
   }
