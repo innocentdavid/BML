@@ -78,6 +78,10 @@
     display: flex;
 }
 
+.header_side1>a {
+    margin: 5px 10px
+}
+
 .header_mark {
     display: flex;
     flex-direction: column;
@@ -202,8 +206,9 @@
     color: white !important;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
+    /* font-weight: 700; */
+    font-size: 17px;
+    opacity: .7;
 }
 
 .click {
