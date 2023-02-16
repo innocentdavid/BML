@@ -6,7 +6,7 @@
 
 
 body {
-      grid-template-columns: 1.4fr 3fr;
+      grid-template-columns: 1fr 3.5fr;
 }
 /* .img_box {
   width: 440px;
