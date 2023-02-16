@@ -78,8 +78,9 @@
 .header_items.active {
     border-bottom: 1px solid #CE1212;
     width: 80%;
-
 }
+
+.header_items
 
 .header_sub {
     margin-top: 20px;
@@ -221,7 +222,7 @@
 @media screen and (max-width:769px) {
     .header_sub {
         /* display: none; */
-        margin-top: 0px;
+        margin-top: 20px;
     }
 
     .footer {

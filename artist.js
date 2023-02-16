@@ -5,7 +5,7 @@ const slider = document.getElementsByClassName("img_box")
 
 const images = document.querySelectorAll(".image-container img");
 let i = 0;
-let j = 2
+let j = 3
 function next(){
     document.getElementById("content" + (i+1)).classList.remove("active");
     i = ( j + i + 1) % j;

@@ -1,70 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="main.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&display=swap" rel="stylesheet">
-    <link href="/font-awesome-4.7.0/" rel="stylesheet">
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="main.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&display=swap" rel="stylesheet">
+  <link href="/font-awesome-4.7.0/" rel="stylesheet">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="layout.css" />
-    <link rel="stylesheet" href="header.css" />
+  <link rel="stylesheet" href="layout.css" />
+  <link rel="stylesheet" href="header.css" />
 
-    <link rel="stylesheet" href="artist.css">  
-    
-    <title>artist</title>
+  <link rel="stylesheet" href="artist.css">
+
+  <title>artist</title>
 
 </head>
+
 <body>
   <div class="child child1"></div>
-    <div class="child child2"></div>
-    <main class=""  style="width: 100%; height: 100vh; overflow: hidden;">
-      <header class="header_flex">
-        <div class="header_side1">
-          <a href="index.html"><img src="Assest/logo.svg" alt="logo" class="header_top_logo" /></a>
-          <div class="header_mark">
-            <a href="index.html" class="header_items">HOME</a>
-            <a href="artist.html" class="header_items active">ARTIST</a>
-            <a href="mission.html" class="header_items">MISSION</a>
-          </div>
+  <div class="child child2"></div>
+  <main class="">
+    <header class="header_flex">
+      <div class="header_side1">
+        <a href="index.html"><img src="Assest/logo.svg" alt="logo" class="header_top_logo" /></a>
+        <div class="header_mark">
+          <a href="index.html" class="header_items">HOME</a>
+          <a href="artist.html" class="header_items active">ARTIST</a>
+          <a href="mission.html" class="header_items">MISSION</a>
         </div>
-      
-        <div class="subscribe" id="sub">
-          <div class="box">
-            <h1 class="text">Subscribe to our newsletter</h1>
-            <div class="formed">
-              <form class="sub_form"
-                action="https://gmail.us21.list-manage.com/subscribe/post?u=a7abcf41aa98fe0618fb7d61e&amp;id=99c68e267c&amp;f_id=00e7fce1f0"
-                method="post">
-      
-                <span><i class="fa fa-envelope-o icon" aria-hidden="true"></i></span>
-                <input type="email" name="EMAIL" class="fill" id="mce-EMAIL" placeholder="Email" id="" />
-                <div class=""><button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
-                    class="click">
-                    subscribe
-                  </button></div>
-              </form>
-            </div>
-          </div>
-          <i onclick="myfunction()" class="fa fa-times closeSubscribe"></i>
-        </div>
-        <div class="header_sub" onclick="myfunction()">Subscribe</div>
-      </header>
+      </div>
 
-      <h1 class="foo">Artists</h1>
+      <div class="subscribe" id="sub">
+        <div class="box">
+          <h1 class="text">Subscribe to our newsletter</h1>
+          <div class="formed">
+            <form class="sub_form"
+              action="https://gmail.us21.list-manage.com/subscribe/post?u=a7abcf41aa98fe0618fb7d61e&amp;id=99c68e267c&amp;f_id=00e7fce1f0"
+              method="post">
+
+              <span><i class="fa fa-envelope-o icon" aria-hidden="true"></i></span>
+              <input type="email" name="EMAIL" class="fill" id="mce-EMAIL" placeholder="Email" id="" />
+              <div class=""><button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                  class="click">
+                  subscribe
+                </button></div>
+            </form>
+          </div>
+        </div>
+        <i onclick="myfunction()" class="fa fa-times closeSubscribe"></i>
+      </div>
+      <div class="header_sub" onclick="myfunction()">Subscribe</div>
+    </header>
+
+    <h1 class="foo">Artists</h1>
+    <div class="artist_img">
+      <div class="" style="display: flex; flex-direction: column; align-items: center;">
         <img src="Assest/000001-2 1.png" id="content1" class="slided">
-        <a href="page.html"> <h1 class="dayss">Babyi</h1></a>
-    </main>
-    <script src="header.js"></script>
-    
+        <a href="page.html" style="text-decoration: none;" class="dayss">
+          Babyi
+        </a>
+      </div>
+    </div>
+    <br><br>
+  </main>
+  <script src="header.js"></script>
 
-    <script type='text/javascript'>
-      (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);
-      
-    </script>
+
+  <script type='text/javascript'>
+    (function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; }(jQuery)); var $mcj = jQuery.noConflict(true);
+
+  </script>
 </body>
+
 </html>

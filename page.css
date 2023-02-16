@@ -31,6 +31,7 @@
   margin-top: 6px;
   margin-left: 476px;
 }
+
 .nut {
   display: flex;
   gap: 190px;
@@ -43,11 +44,11 @@
 }
 
 .slider_cont {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .container {
@@ -60,11 +61,13 @@
   position: relative;
   /* box-shadow: 0 15px 30px rgba(0,0,0,0.3); */
 }
+
 .image-container {
   position: relative;
   /* margin-left: 40pX; */
   margin: auto;
 }
+
 .dot-container {
   margin-left: 30px;
   display: flex;
@@ -93,8 +96,10 @@ button {
 
 .slided {
   position: relative;
+  /* width: 468px;
+  height: 545px; */
   width: 468px;
-  height: 545px;
+  height: fit-content;
   filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.25));
   display: none;
   border-radius: 16px;
@@ -105,6 +110,7 @@ button {
 .active {
   display: block;
 }
+
 #prev,
 #next {
   height: 40px;
@@ -131,22 +137,24 @@ button {
 
 .dum {
   display: flex;
-  gap: 20px;
-  padding: 20px;
+  gap: 80px;
+  padding: 20px 50px;
   align-items: start;
 }
+
 .dasClone {
-    display: block;
-    font-family: "Poppins";
-    font-style: italic;
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 36px;
-    letter-spacing: 0.1px;
-    color: #000;
+  display: block;
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #000;
 }
+
 .das {
-    display: none;
+  display: none;
   /* width: 269px; */
   height: 36px;
   font-family: "Poppins";
@@ -158,6 +166,7 @@ button {
   color: #171725;
   /* margin-left: 70px; */
 }
+
 .daf {
   /* height: 578px; */
   /* margin-left: -98px; */
@@ -170,12 +179,15 @@ button {
   line-height: 30px;
   color: #636472;
 }
+
 .move {
   display: flex;
   gap: 20px;
   margin-top: 10px;
   flex-wrap: wrap;
+  align-items: center;
 }
+
 .view {
   margin-left: 0px;
   margin-top: 0px;
@@ -190,34 +202,44 @@ button {
 
   display: block;
 }
+
 .png {
   width: 32.45px;
   height: 36.52px;
 }
+
 .png1 {
   width: 32.45px;
   height: 36.52px;
 }
+
 .png2 {
   width: 32.45px;
   height: 36.52px;
 }
+
 .png3 {
   width: 32.45px;
   height: 36.52px;
 }
+
 .png4 {
   width: 32.45px;
   height: 36.52px;
 }
+
 .png5 {
-  width: 32.45px;
-  height: 36.52px;
+  /* width: 32.45px;
+  height: 36.52px; */
+  width: 50px;
+  height: fit-content;
 }
+
 .png6 {
   width: 32.45px;
   height: 36.52px;
 }
+
 .png:hover {
   color: white;
   animation-name: bounce;
@@ -227,6 +249,7 @@ button {
   animation-iteration-count: infinite;
   animation-play-state: running;
 }
+
 .png1:hover {
   color: white;
   animation-name: bounce;
@@ -236,6 +259,7 @@ button {
   animation-iteration-count: infinite;
   animation-play-state: running;
 }
+
 .png2:hover {
   color: white;
   animation-name: bounce;
@@ -245,6 +269,7 @@ button {
   animation-iteration-count: infinite;
   animation-play-state: running;
 }
+
 .png3:hover {
   color: white;
   animation-name: bounce;
@@ -254,6 +279,7 @@ button {
   animation-iteration-count: infinite;
   animation-play-state: running;
 }
+
 .png4:hover {
   color: white;
   animation-name: bounce;
@@ -263,9 +289,11 @@ button {
   animation-iteration-count: infinite;
   animation-play-state: running;
 }
+
 .boss {
   padding: 50px;
 }
+
 .png5:hover {
   color: white;
   animation-name: bounce;
@@ -275,6 +303,7 @@ button {
   animation-iteration-count: infinite;
   animation-play-state: running;
 }
+
 .png6:hover {
   color: white;
   animation-name: bounce;
@@ -290,32 +319,39 @@ button {
     transform: translateY(0%);
     padding-bottom: 7px;
   }
+
   80% {
     transform: translateY(-15%);
   }
+
   90% {
     transform: translateY(0%);
     padding-bottom: 8px;
   }
+
   95% {
     transform: translateY(-7%);
   }
+
   97% {
     transform: translateY(0%);
     padding-bottom: 9px;
   }
+
   99% {
     transform: translateY(-3%);
   }
+
   100% {
     transform: translateY(0);
     padding-bottom: 9px;
     opacity: 1;
   }
 }
+
 .dar {
   display: flex;
-  padding: 20px;
+  padding: 20px 50px;
 }
 
 .music {
@@ -333,22 +369,35 @@ button {
 }
 
 .dem {
-  width: 529px;
-  height: 630px;
-  background: url(000001-2.png);
+  width: 485px;
+  height: fit-content;
+  margin-left: -6px;
+  /* width: 529px;
+  height: 630px; */
+  /* background: url(000001-2.png);
   filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.25));
-  border-radius: 18px;
+  border-radius: 18px; */
 }
 
 @media screen and (max-width: 426px) {
-.dar {
+  .dar {
     flex-direction: column;
   }
-    .demCont {
-      display: grid;
-      place-items: center;
+
+  .demCont {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .dum {
+    padding: 0;
+    gap: 20px;
+  }
+
+    .slided {
       width: 100%;
-      margin-bottom: 20px;
     }
 }
 
@@ -356,6 +405,7 @@ button {
   .dum {
     flex-direction: column;
   }
+
   .down {
     width: 229px;
     height: 308px;
@@ -364,8 +414,9 @@ button {
   }
 
   .dasClone {
-      display: none;
+    display: none;
   }
+
   .das {
     display: block;
     font-size: 38px;
@@ -373,14 +424,16 @@ button {
     /* margin-left: -140px; */
     margin-top: 20px;
   }
+
   .daf {
     margin: 10px 5px;
-    padding: 10px 10px;
+    padding: 10px 15px;
     font-weight: 300;
     font-size: 18px;
     line-height: 30px;
     color: #636472;
   }
+
   .view {
     margin-left: 5px;
     margin-top: 0px;
@@ -393,59 +446,73 @@ button {
     color: #171725;
     display: block;
   }
+
   .png {
     width: 32.45px;
     height: 36.52px;
     margin-top: 19px;
     margin-left: 15px;
   }
+
   .png1 {
     width: 32.45px;
     height: 36.52px;
     margin-top: 19px;
     margin-left: 15px;
   }
+
   .png2 {
     width: 32.45px;
     height: 36.52px;
     margin-top: 19px;
     margin-left: 15px;
   }
+
   .png3 {
     width: 32.45px;
     height: 36.52px;
     margin-top: 19px;
     margin-left: 15px;
   }
+
   .png4 {
     width: 32.45px;
     height: 36.52px;
     margin-top: 19px;
     margin-left: 15px;
   }
+
   .png5 {
-    width: 32.45px;
-    height: 36.52px;
+    /* width: 32.45px;
+    height: 36.52px; */
+    width: 50;
+    height: fit-content;
     margin-top: 19px;
     margin-left: 15px;
   }
+
   .png6 {
     width: 32.45px;
     height: 36.52px;
     margin-top: 19px;
     margin-left: 15px;
   }
+
   .dem {
-    width: 229px;
-    height: 308px;
-    /* margin-left: 30px; */
+    /* width: 229px;
+    height: 308px; */
+    width: 300px;
+    height: fit-content;
+    margin-left: -10px;
     margin-top: 36px;
 
   }
+
   .music {
     font-weight: 700;
     font-size: 48px;
   }
+
   .img_box {
     /* width: 440px;
     margin-left: -10px; */
@@ -455,36 +522,46 @@ button {
     align-items: center;
     position: relative;
   }
+
   .image-container {
     position: relative;
     /* margin-left: -10px; */
   }
+
   .uss {
     width: 160px;
     height: 217px;
     margin-top: 8px;
     margin-left: 10px;
   }
+
   .cass {
     font-size: 24px;
     margin-top: 420px;
     margin-left: 140px;
   }
+
   .container {
     /* width: 220px; */
     /* height: 270px; */
-    padding: 10px;
     position: relative;
     margin-top: 30px;
     /* margin-left: -120px; */
-    padding: 20px;
+    /* padding: 10px; */
+    /* padding: 20px; */
   }
+
   .slided {
-    width: 200px;
-    height: 230px;
+    /* width: 200px; */
+    /* height: 230px; */
+    /* width: 300px; */
+    width: 80%;
+    margin: auto;
+    height: fit-content;
     /* margin-right: 100px; */
     margin-top: 12px;
   }
+
   .dot-container {
     margin-left: 50px;
     display: flex;
@@ -492,10 +569,12 @@ button {
     gap: 30px;
     position: relative;
   }
+
   .dot-container button {
     height: 15px;
     width: 15px;
   }
+
   .pass {
     width: 187px;
   }
@@ -508,9 +587,11 @@ button {
   .active {
     display: block;
   }
+
   #prev {
     left: -5px;
   }
+
   #prev,
   #next {
     height: 30px;
@@ -520,6 +601,7 @@ button {
     top: 0;
     bottom: 0;
   }
+
   .move {
     gap: 10px;
   }
