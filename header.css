@@ -21,34 +21,41 @@
     animation-iteration-count: infinite;
     animation-play-state: running;
 }
+
 @keyframes bounce {
     70% {
-      transform: translateY(0%);
-      padding-bottom: 7px;
+        transform: translateY(0%);
+        padding-bottom: 7px;
     }
+
     80% {
-      transform: translateY(-15%);
+        transform: translateY(-15%);
     }
+
     90% {
-      transform: translateY(0%);
-      padding-bottom: 8px;
+        transform: translateY(0%);
+        padding-bottom: 8px;
     }
+
     95% {
-      transform: translateY(-7%);
+        transform: translateY(-7%);
     }
+
     97% {
-      transform: translateY(0%);
-      padding-bottom: 9px;
+        transform: translateY(0%);
+        padding-bottom: 9px;
     }
+
     99% {
-      transform: translateY(-3%);
+        transform: translateY(-3%);
     }
+
     100% {
-      transform: translateY(0);
-      padding-bottom: 9px;
-      opacity: 1;
+        transform: translateY(0);
+        padding-bottom: 9px;
+        opacity: 1;
     }
-  }
+}
 
 .header_side1 {
     display: flex;
@@ -76,16 +83,20 @@
 }
 
 .header_items.active {
-    border-bottom: 1px solid #CE1212;
-    width: 80%;
+    /* border-bottom: 1px solid #CE1212;
+    width: 80%; */
+    text-decoration: underline;
+    text-decoration-color: #CE1212;
+    text-underline-offset: 3px;
+    
 }
-
-.header_items
 
 .header_sub {
     margin-top: 20px;
     cursor: pointer;
     text-decoration: underline;
+    text-underline-offset: 3px;
+    text-transform: lowercase;
 }
 
 .closeSubscribe {
@@ -221,7 +232,6 @@
 
 @media screen and (max-width:769px) {
     .header_sub {
-        /* display: none; */
         margin-top: 20px;
     }
 
@@ -259,6 +269,38 @@
 
     .sub_form input {
         width: 200px;
+    }
+}
+
+@media screen and (max-width:673px) {
+    .subscribe {
+        width: 100%
+    }
+
+    .box {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .click {
+        padding: 0 15px;
+    }
+
+    .icon {
+        font-size: 1rem;
+    }
+
+    .sub_form input {
+        width: 140px;
+    }
+
+    .sub_form button {
+        font-size: 14px;
+    }
+
+    .fill {
+        font-weight: 500;
+        font-size: 14px;
     }
 }
 
