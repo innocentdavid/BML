@@ -3,11 +3,7 @@
  @import url('https://fonts.cdnfonts.com/css/mervale-script');
 
 
-@import url('https://fonts.cdnfonts.com/css/dm-sans');
-
-                
-
-                
+@import url('https://fonts.cdnfonts.com/css/dm-sans');                
 
 .main {
     padding: 2px 50px;
@@ -129,5 +125,11 @@
         grid-template-columns: 1fr;
         place-items: start;
         padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .mission_footer input {
+        width: 285px;
     }
 }
