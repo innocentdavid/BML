@@ -19,7 +19,7 @@ body {
     background-image: linear-gradient(to right, #d4d4d4, #fff, #fff); */
     background-color: white;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
 }
 
 .child1 {

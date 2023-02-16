@@ -4,6 +4,10 @@
 
 @import url("https://fonts.cdnfonts.com/css/dm-sans");
 
+
+body {
+      grid-template-columns: 1.4fr 3fr;
+}
 /* .img_box {
   width: 440px;
   margin-left: 70px;
@@ -48,7 +52,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   width: 100%;
 }
 
@@ -412,6 +416,7 @@ button {
     font-size: 38px;
     color: #171725;
     /* margin-left: -140px; */
+    margin-left: 10%;
     margin-top: 20px;
   }
 
