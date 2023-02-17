@@ -148,6 +148,7 @@ button {
 }
 
 .dasClone {
+  margin-left: -3px;
   display: block;
   font-family: "Poppins";
   font-style: italic;
@@ -176,7 +177,8 @@ button {
   /* height: 578px; */
   /* margin-left: -98px; */
   /* margin-top: 50px; */
-  padding: 10px 10px;
+  /* padding: 10px 10px; */
+  padding: 10px 0px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
@@ -550,12 +552,12 @@ button {
     /* width: 200px; */
     /* height: 230px; */
     /* width: 300px; */
-    width: 80%;
+    width: fit-content;
+    height: 350px;
     margin: auto;
-    height: fit-content;
-    max-height: 450px;
-    /* margin-right: 100px; */
     margin-top: 12px;
+    /* max-height: 450px; */
+    /* margin-right: 100px; */
   }
 
   .dot-container {
