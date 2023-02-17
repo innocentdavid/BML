@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
- @import url('https://fonts.cdnfonts.com/css/mervale-script');
+@import url('https://fonts.cdnfonts.com/css/mervale-script');
 
 
-@import url('https://fonts.cdnfonts.com/css/dm-sans');                
+@import url('https://fonts.cdnfonts.com/css/dm-sans');
 
 .main {
     padding: 2px 50px;
@@ -18,12 +18,12 @@
 }
 
 .main_content {
-    font-family: 'Poppins' ;
+    font-family: 'Poppins';
     margin: 20px auto;
     padding: 5px 50px;
     display: flex;
     flex-direction: column;
-    gap: 26px;
+    gap: 18px;
 }
 
 .to_right {
@@ -34,11 +34,12 @@
 
 .fa-star {
     position: absolute;
-    top: -15px;
-    right: -5px;
+    top: -2px;
+    right: -16px;
     color: red;
 }
-.icon{
+
+.icon {
     color: white;
     font-size: 1.5rem;
     margin: 11px;
@@ -61,7 +62,7 @@
 }
 
 .mission_sub_form {
-    background-color:#ffffff36;
+    background-color: #ffffff36;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -77,7 +78,7 @@
     color: white;
 }
 
-.mission_sub_form button{
+.mission_sub_form button {
     border: none;
     outline: none;
     background-color: black;
@@ -88,17 +89,20 @@
     place-items: center;
     border-radius: 999px;
 }
-@media screen and (max-width: 769px){
+
+@media screen and (max-width: 769px) {
     .main {
         padding: 2px 20px;
     }
+
     .mission_footer {
-       margin-top: 20px;
+        margin-top: 20px;
     }
 
     .vex {
         margin-top: 6px;
     }
+
     .main_content {
         margin: 10px auto;
         padding: 5px 9px;
@@ -106,14 +110,16 @@
         flex-direction: column;
         gap: 28px;
     }
+
     .mission_sub_form {
         gap: 10px;
         flex-direction: row;
         border-radius: 30px;
         height: 40px;
-        
+
     }
-    .mission_sub_form button{
+
+    .mission_sub_form button {
         width: 120px;
         height: 100%;
         display: grid;
@@ -123,13 +129,15 @@
     }
 
 }
-@media screen and (max-width:767px){
+
+@media screen and (max-width:767px) {
     .mission_footer {
         display: grid;
         grid-template-columns: 1fr;
         place-items: center;
         padding: 10px 20px;
     }
+
     .mission_footer input {
         width: 400px;
     }

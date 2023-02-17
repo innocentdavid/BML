@@ -17,16 +17,21 @@
 
   <!-- <link rel="stylesheet" href="index.css"> -->
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    /* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
     @import url('https://fonts.cdnfonts.com/css/mervale-script');
     @import url('https://fonts.cdnfonts.com/css/dm-sans');
+
+    @font-face {
+      font-family: Poppins;
+      src: url(/fonts/Poppins/Poppins-Regular.ttf);
+    }
 
     .floating {
       animation-name: floating;
       animation-duration: 1.5s;
       animation-iteration-count: infinite;
       animation-timing-function: ease-in-out;
-      margin-left: 30px;
+      /* margin-left: 30px; */
       margin-top: 5px;
     }
 
@@ -88,15 +93,15 @@
     </header>
 
     <div
-      class="home_main px-10 md:px-10 xl:px-[4rem] 2xl:px-[9rem] mt-10 lg:mt-10 flex flex-col md:flex-row items-center lg:items-start">
+      class="home_main px-10 md:px-10 xl:px-[4rem] 2xl:px-[9rem] mt-4 md:mt-10 lg:mt-10 flex flex-col md:flex-row items-center lg:items-start">
       <!-- <h1
         class="font-['Poppins'] font-bold italic text-5xl md:text-6xl lg:text-7xl xl:text-[5rem] 2xl:text-[6rem] xl:!leading-[100px] 2xl:!leading-[120px] text-center md:text-start"> -->
       <h1
         class="font-['Poppins'] font-bold italic text-center md:text-start text-5xl sm:text-6xl md:text-7xl lg:text-[5rem] xl:text-[7.5rem] 3xl:text-[9rem]">
         Empowering<br> Artists,<br> Inspiring<br> Listeners</h1>
       <img src="Assest/bg2.svg" alt=""
-        class="floating md:absolute right-[10px] lg:right-[20px] 2xl:right-[30px] bottom-[-10px] w-[270px] md:w-[337px] lg:w-[440px] xl:w-[520px] 2xl:w-[600px]">
-        <!-- xl:w-[508px] 2xl:w-[578px] -->
+        class="floating md:absolute right-[10px] lg:right-[20px] 2xl:right-[35px] bottom-[-10px] w-[270px] md:w-[337px] lg:w-[440px] xl:w-[520px] 2xl:w-[600px]">
+      <!-- xl:w-[508px] 2xl:w-[578px] -->
     </div>
 
     <a href="artist.html" class="fixed bottom-4 left-[50%] translate-x-[-50%] text-4xl">
