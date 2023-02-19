@@ -21,9 +21,9 @@
 </head>
 
 <body>
-  <div class="child child1"></div>
+  <div class="child child1 h-screen"></div>
   <div class="child child2"></div>
-  <main>
+  <main class="h-screen">
     <header class="header_flex">
       <div class="header_side1">
         <a href=/><img src="Assest/logo2.svg" alt="logo" class="header_top_logo" /></a>
@@ -110,7 +110,7 @@
         </form>
       </div> -->
 
-      <div class="bg-[#9E0707] text-white rounded-[12px] py-5 px-8 flex flex-col md:flex-row gap-5 justify-between items-center">
+      <!-- <div class="bg-[#9E0707] text-white rounded-[12px] py-5 px-8 flex flex-col md:flex-row gap-5 justify-between items-center">
         <h1 class="text-2xl font-bold text-center md:text-start font-['Poppins']">Subscribe to our newsletter</h1>
         <form
           action="https://gmail.us21.list-manage.com/subscribe/post?u=a7abcf41aa98fe0618fb7d61e&amp;id=99c68e267c&amp;f_id=00e7fce1f0"
@@ -121,16 +121,29 @@
           </div>
           <button class="rounded-full py-1 px-4 md:px-8 bg-black">subscribe</button>
         </form>
-      </div>
-
-
-      <br>
+      </div> -->
     </div>
-    <div class="md:hidden">
-      <br>
-      <br>
-    </div>
+
+    <a href="/" class="fixed bottom-4 left-[50%] translate-x-[-50%] text-4xl">
+      <!-- <i class="fa fa-angle-down index_eds" aria-hidden="true"></i> -->
+      <img src="Assest/Vector.png" alt="" class="index_eds w-[30px]">
+    </a>
   </main>
+  <!-- <div style="min-height: 105vh;"></div> -->
+  <br>
+  <br>
+  
+  <script>
+    window.onscroll = function () { myScrollFunction() };
+    function myScrollFunction() {
+      if ((window.innerHeight + window.scrollY) > document.body.offsetHeight) {
+        setTimeout(function () {
+          location.href = "/";
+        }, 1000)
+      }
+    }
+  </script>
+
   <script src="header.js"></script>
 
   <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'>

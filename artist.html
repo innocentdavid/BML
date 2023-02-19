@@ -8,6 +8,7 @@
   <script src="main.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&display=swap" rel="stylesheet">
   <link href="/font-awesome-4.7.0/" rel="stylesheet">
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
@@ -18,11 +19,10 @@
   <link rel="stylesheet" href="artist.css">
 
   <title>artist</title>
-
 </head>
 
-<body>
-  <div class="child child1"></div>
+<body class="h-screen">
+  <div class="child child1 h-screen"></div>
   <div class="child child2"></div>
   <main class="">
     <header class="header_flex">
@@ -62,16 +62,33 @@
     <h1 class="foo">Artists</h1>
     <div class="artist_img">
       <div class="" style="display: flex; flex-direction: column; align-items: center;">
-        <img src="Assest/000001-2 2.png" id="content1" class="slided" onclick="window.location='babyi'" style="cursor: pointer;">
+        <img src="Assest/000001-2 1.png" id="content1" class="slided" onclick="window.location='babyi'" style="cursor: pointer;">
         <a href="babyi" style="text-decoration: none;" class="dayss">
           Babyi
         </a>
       </div>
     </div>
-    <br><br>
-    <br><br>  
+
+    <a href="mission" class="fixed bottom-4 left-[50%] translate-x-[-50%] text-4xl">
+      <!-- <i class="fa fa-angle-down index_eds" aria-hidden="true"></i> -->
+      <img src="Assest/Vector.png" alt="" class="index_eds w-[30px]">
+    </a>
   </main>
+  <br>
+  <br>
+  <br>
   <script src="header.js"></script>
+
+  <script>
+    window.onscroll = function () { myScrollFunction() };
+    function myScrollFunction() {
+      if ((window.innerHeight + window.scrollY) > document.body.offsetHeight) {
+        setTimeout(function () {
+          location.href = "mission";
+        }, 1000)
+      }
+    }
+  </script>
 
 
   <script type='text/javascript'>
