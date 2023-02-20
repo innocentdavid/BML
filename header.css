@@ -118,7 +118,7 @@
     /* text-decoration: underline; */
     text-underline-offset: 3px;
     text-transform: lowercase;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .header_sub span {
@@ -268,7 +268,7 @@
 
 @media screen and (max-width:769px) {
     .header_sub {
-        margin-top: 0px;
+        margin-top: 30px;
         margin-right: 0;
     }
 

@@ -236,10 +236,8 @@ button {
 }
 
 .png5 {
-  /* width: 32.45px;
-  height: 36.52px; */
-  width: 50px;
-  height: fit-content;
+  width: 45px;
+  height: 36.52px;
 }
 
 .png6 {
@@ -482,10 +480,6 @@ button {
   }
 
   .png5 {
-    /* width: 32.45px;
-    height: 36.52px; */
-    width: 50;
-    height: fit-content;
     margin-top: 19px;
     margin-left: 15px;
   }
