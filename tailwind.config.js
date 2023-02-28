@@ -10,6 +10,11 @@ module.exports = {
     ],
     theme: {
         extended: {
+            boxShadow: {
+                // '3xl': "0 0 24px - 5px rgb(0 0 0 / 0.1), 0 8px 10px - 6px rgb(0 0 0 / 0.1)"
+                // '3xl': '0 0 24px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)',
+                '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
+            },
             screens: {
                 '3xl': "1800px",
             },

@@ -86,7 +86,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 6px;
+    gap: 1px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
@@ -101,7 +101,14 @@
     text-decoration: none;
     color: black;
     text-transform: lowercase;
+    transition: all 0.5s ease;
 }
+
+/* .header_items:hover{
+    text-decoration: underline;
+    text-decoration-color: #CE1212;
+    text-underline-offset: 3px;
+} */
 
 .header_items.active {
     /* border-bottom: 1px solid #CE1212;
