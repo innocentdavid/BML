@@ -247,9 +247,8 @@ button {
 
 .bounceEl:hover {
   transform: translateY(-5px);
-  transition: all .5s ease-in;
   animation-name: bounce;
-  animation-duration: 0.5s;
+  animation-duration: 0.2s;
   animation-timing-function: ease-in;
 }
 
@@ -260,7 +259,7 @@ button {
 
   50% {
     transform: translateY(-3px);
-    margin-top: 2px;
+    padding-top: 2px;
   }
 
   100% {
