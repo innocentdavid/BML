@@ -245,113 +245,31 @@ button {
   height: 36.52px;
 }
 
-.png:hover {
-  color: white;
+.bounceEl:hover {
+  transform: translateY(-5px);
+  transition: all .5s ease-in;
   animation-name: bounce;
-  animation-duration: 0.8s;
-  animation-timing-function: ease-in-out;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
 }
 
-.png1:hover {
-  color: white;
-  animation-name: bounce;
-  animation-duration: 0.8s;
-  animation-timing-function: ease-in-out;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
-}
+@keyframes bounce {
+  0% {
+    transform: translateY(-1px);
+  }
 
-.png2:hover {
-  color: white;
-  animation-name: bounce;
-  animation-duration: 0.8s;
-  animation-timing-function: ease-in-out;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
-}
+  50% {
+    transform: translateY(-3px);
+    margin-top: 2px;
+  }
 
-.png3:hover {
-  color: white;
-  animation-name: bounce;
-  animation-duration: 0.8s;
-  animation-timing-function: ease-in-out;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
-}
-
-.png4:hover {
-  color: white;
-  animation-name: bounce;
-  animation-duration: 0.8s;
-  animation-timing-function: ease-in-out;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
+  100% {
+    transform: translateY(-5px);
+  }
 }
 
 .boss {
   padding: 50px;
-}
-
-.png5:hover {
-  color: white;
-  animation-name: bounce;
-  animation-duration: 0.8s;
-  animation-timing-function: ease-in-out;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
-}
-
-.png6:hover {
-  color: white;
-  animation-name: bounce;
-  animation-duration: 0.8s;
-  animation-timing-function: ease-in-out;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
-}
-
-@keyframes bounce {
-  70% {
-    transform: translateY(0%);
-    padding-bottom: 7px;
-  }
-
-  80% {
-    transform: translateY(-15%);
-  }
-
-  90% {
-    transform: translateY(0%);
-    padding-bottom: 8px;
-  }
-
-  95% {
-    transform: translateY(-7%);
-  }
-
-  97% {
-    transform: translateY(0%);
-    padding-bottom: 9px;
-  }
-
-  99% {
-    transform: translateY(-3%);
-  }
-
-  100% {
-    transform: translateY(0);
-    padding-bottom: 9px;
-    opacity: 1;
-  }
 }
 
 .dar {
